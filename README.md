@@ -68,12 +68,14 @@ CareNexus+ is an AI-powered healthcare management platform designed to enhance t
 ## Installation Guide
 
 ### **Step 1: Clone the Repository**
-`git clone https://github.com/your-username/CareNexus.git`
-`cd CareNexus`
+```bash
+git clone https://github.com/your-username/CareNexus.git
+cd CareNexus
 
 ### **Step 2: Set Up the Backend**
 1. Navigate to the backend folder:
-   `cd server`
+   ```bash
+   cd server
 
 2. Create a virtual environment:
     `python3 -m venv venv`
@@ -93,7 +95,8 @@ CareNexus+ is an AI-powered healthcare management platform designed to enhance t
 
 ### **Step 3: Set Up the Frontend**
 1. Navigate to the frontend folder:
-   `cd ../client`
+   ```bash
+      cd ../client
 
 2. Install dependencies:
     `npm install`
